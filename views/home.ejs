@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <title>Lego Collection</title>
+</head>
+<body>
+    <%- include('partials/navbar', { page: '/home' }) %>
+
+    <div class="container mx-auto p-4">
+        <div class="hero bg-base-200 rounded-lg p-6">
+            <div class="hero-content text-center">
+                <div class="max-w-md text-white">
+                    <h1 class="mb-5 text-5xl font-bold">Step into the world of the Lego.</h1>
+                    <p class="mb-5">
+                        Embark on a journey of creativity and imagination with our wide range of Lego sets. Begin your next adventure right here!
+                    </p>
+                    <a href="/lego/sets" class="btn btn-primary">Explore Sets</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4 pt-4 text-white">
+            <!-- Card 1 -->
+<div class="card shadow-lg bg-base-100">
+    <img src="https://cdn.rebrickable.com/media/sets/001-1.jpg" alt="Set Image" class="rounded">
+    <div class="card-body">
+        <h2 class="font-bold">Gears</h2>
+        <p class="text-sm">Year: 1965</p>
+        <p class="text-sm">This classic set from 1965 features a versatile assortment of gears for creative building.</p>
+        <a href="/lego/sets/080-1" class="btn btn-primary mt-2">View Set</a>
+    </div>
+</div>
+
+<!-- Card 2 -->
+<!-- Card 2 -->
+<div class="card shadow-lg bg-base-100">
+    <img src="https://cdn.rebrickable.com/media/sets/022-1.jpg" alt="Set Image" class="rounded">
+    <div class="card-body">
+        <h2 class="font-bold">Basic Building Set</h2>
+        <p class="text-sm">Year: 1968</p>
+        <p class="text-sm">This set from 1968 offers a basic building set with a variety of bricks for creative construction.</p>
+        <a href="/lego/sets/022-1" class="btn btn-primary mt-2">View Set</a>
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="card shadow-lg bg-base-100">
+    <img src="https://cdn.rebrickable.com/media/sets/0011-3.jpg" alt="Set Image" class="rounded">
+    <div class="card-body">
+        <h2 class="font-bold">Castle 2 for 1 Bonus Offer</h2>
+        <p class="text-sm">Year: 1987</p>
+        <p class="text-sm">This special offer from 1987 includes a bonus castle set along with your purchase.</p>
+        <a href="/lego/sets/080-1" class="btn btn-primary mt-2">View Set</a>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <title>About - Lego Collection</title>
+</head>
+<body>
+    <%- include('partials/navbar', { page: '/about' }) %>
+
+    <div class="container mx-auto mt-4 p-4">
+        <div class="hero bg-base-200 p-4 rounded">
+            <div class="hero-content text-center">
+                <div class="max-w-md text-white">
+                    <h1 class="text-4xl font-bold">About</h1>
+                    <p class="py-6">All about me.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div>
+                <img src="/images/star.jpg" alt="A representation of me" class="rounded-lg shadow-lg">
+            </div>
+            <div class="flex flex-col justify-center">
+                <p class="text-lg text-white">
+                    I dont want to make it boring but I am still going to. I am Nishita Waghela. I am doing my advanced diploma in CPA. I would say I am a learner and am very excited to know what more the course has to offer. Bye bye.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
