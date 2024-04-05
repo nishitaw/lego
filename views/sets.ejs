@@ -39,14 +39,14 @@
                 </thead>
                 <tbody>
                     <% sets.forEach(set => { %>
-                    <tr>
-                        <td><img src="<%= set.img_url %>" alt="<%= set.name %>" class="w-32 h-32 rounded-lg"></td>
-                        <td><%= set.name %></td>
-                        <td><a href="/lego/sets?theme=<%= set.theme %>" class="btn btn-primary"><%= set.theme %></a></td>
-                        <td><%= set.year %></td>
-                        <td><%= set.num_parts %></td>
-                        <td><a href="/lego/sets/<%= set.set_num %>" class="btn btn-primary">Details</a></td>
-                    </tr>
+                        <tr>
+                            <td><img src="<%= set.img_url %>" alt="<%= set.name %>" class="w-32 h-32 rounded-lg"></td>
+                            <td><%= set.name %></td>
+                            <td><a href="/lego/sets?theme=<%= set.Theme.name %>" class="btn btn-primary"><%= set.Theme.name %></a></td>
+                            <td><%= set.year %></td>
+                            <td><%= set.num_parts %></td>
+                            <td><a href="/lego/sets/<%= set.set_num %>" class="btn btn-primary">Details</a></td>
+                        </tr>
                     <% }) %>
                 </tbody>
             </table>
