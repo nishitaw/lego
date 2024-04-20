@@ -18,7 +18,7 @@ const authData = require('./modules/auth-service');
 const clientSessions = require('client-sessions');
 
 const app = express();
-const port = 3030;
+const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
